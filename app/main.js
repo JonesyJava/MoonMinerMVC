@@ -1,7 +1,7 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import MoonController from "./Controllers/MoonController.js";
 
 class App {
-  valuesController = new ValuesController();
+  moonController = new MoonController();
 }
 
 window["app"] = new App();
