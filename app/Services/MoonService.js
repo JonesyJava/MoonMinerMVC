@@ -7,6 +7,9 @@ class MoonService{
   }
   mine(){
     ProxyState.cheese++
+    ProxyState.purchasedUpgrades.forEach(u => {
+      ProxyState.cheese += u.multiplier
+    })
   }
 }
 
